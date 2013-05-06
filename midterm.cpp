@@ -23,7 +23,7 @@ int yres=480;
 int lcount = 0,rcount = 0;
 
 typedef struct t_grid {
-  char contents;
+	char contents;
 	bool mouse_hover;
 	bool mark;
 	bool check;
@@ -502,4 +502,5 @@ void process_turn(Grid &cell, char value, int grid_dim) {
 		}
 	}
 }
+
 
